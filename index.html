@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>The Black Film</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsividade.css">
+    <link rel="shortcut icon" href="IMG/Id.visual-TBF.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#logo"><img style="width: 5rem; height: 5rem;" src="IMG/Id.visual-TBF.png" alt=""></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                    <li><a class="li-texto" href="#secao1">HOME</a></li>
+                    <li><a class="li-texto" href="#secao2">SOBRE NÓS</a></li>
+                    <li><a class="li-texto" href="#secao3">SOLUÇÕES</a></li>
+                    <li><a class="li-texto" href="#secao4">AVALIAÇÕES</a></li>
+                    <li><a class="li-texto" href="#secao5">PROJETOS</a></li>
+                    <li class="button"><a href="https://wa.me/5511952015603">CHAME AGORA!</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner-principal">
+        <div id="secao1" class="mid-banner">
+            <div class="divisor-esquerdo">
+                <h1 class="text2">MAIS DO QUE <br> <span>PELÍCULA,</span><br>A SOLUÇÃO <span><br>IDEAL.</span></h1>
+                <button  onclick="window.location.href='https://wa.me/5511952015603'" 
+                style="cursor: pointer; justify-content: flex-start;" class="botao">
+                    <span style="color: #FFF; font-weight: bold;">FALE CONOSCO</span>
+                    <img src="ICONS/seta-direita.png" alt="Ícone de reset" class="icone">
+                </button>
+            </div>
+            <div class="div-direito">
+                <div class="org">
+                    <div class="blocos">
+                        <span class="n1">+</span>
+                        <span id="contador" class="n1">3000</span>
+                        <p class="texto-bloco">Projetos finalizados</p>
+                    </div>
+                    <div class="blocos">
+                        <span id="contador3" class="n1">100</span><span class="n1">%</span>
+                        <p class="texto-bloco">Satisfação</p>
+                    </div>
+                    <div class="blocos">
+                        <span class="n1">+</span>
+                        <span id="contador2" class="n1">10</span>
+                        <p class="texto-bloco">Anos de Experiência</p>
+                    </div>
+                    <div class="blocos">
+                        <span class="n1">+</span>
+                        <span id="contador4" class="n1">20</span>
+                        <p class="texto-bloco">Soluções</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="empresas" src="IMG/Parceiros.jpg" alt="">
+    <div id="secao2" class="content2">
+        <div id="left-side">
+            <div id="title2">
+                <h1 id="contador5" class="texto-caixa" style="font-size: 3rem;">10</h1>
+                <span class="texto-caixa" style="background-color: #F6003A;">Anos</span><span class="texto-caixa"> de <br>sucesso no<br> trabalho</span>
+            </div>
+            <div class="div-escondida">
+            </div>
+        </div>
+        <div class="right-side">
+            <h1 class="titlemaior" style="color: #18133e;">SOBRE NÓS</h1>
+            <span class="textos">A <span class="tbf">The Black Film</span> é uma empresa que está no mercado há 10 anos, 
+            dirigida por André; especializada na aplicação de películas para automóveis e áreas da arquitetura. 
+            Com foco em qualidade e personalização, oferece soluções que garantem conforto 
+            térmico, privacidade e estética. A empresa se destaca pela experiência e compromisso com a satisfação dos 
+            clientes, atendendo diversas regiões de São Paulo e interior.
+            </span>
+            <button id="botaoMostrarVideo" style="cursor: pointer;" class="botao">
+                <span style="color: #000; font-weight: bold;">VEJA O VIDEO</span>
+                <img src="ICONS/play.svg" alt="play" class="icone">
+            </button>
+            <div style="z-index: 7;" id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <iframe id="videoIframe" width="650" height="315" src=""
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                      encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+        <a href="https://wa.me/5511952015603" class="wpp"><span style="text-align: end; 
+        font-weight: bold; margin-right: 5px; color: #F6003A;">CHAME AGORA!!</span>
+        <img style="width: 4rem;height: 4rem;" src="ICONS/whatsapp-11.png" alt=""></a>
+    -->
+    <div id="secao3" class="centralizada">
+        <div class="text-align">
+            <h1 class="titlemaior" style="text-align: center;color: #F6003A;">NOSSAS SOLUÇÕES</h1>
+        </div>
+        <div class="responsa">
+            <a href="#secao6" class="botao2">
+                <img class="icone2" src="ICONS/iCONES SOLUÇÕES-12.jpg" alt="caneta">
+                <p class="text-button">TÉRMICA</p>
+            </a>
+            <a href="#secao6" class="botao2">
+                <img class="icone2" src="ICONS/iCONES SOLUÇÕES-13.jpg" alt="caneca-com-vapor">
+                <span class="text-button">DECORATIVA</span>
+            </a>
+            <a href="#secao7" class="botao2">
+                <img class="icone2" src="ICONS/iCONES SOLUÇÕES-14.jpg" alt="planner">
+                <span class="text-button">PRIVACIDADE</span>
+            </a>
+            <a href="#secao7" class="botao2">
+                <img class="icone2" src="ICONS/iCONES SOLUÇÕES-15.jpg" alt="caneta">
+                <p class="text-button">SEGURANÇA</p>
+            </a>
+        </div>
+    </div>
+    <div style="background-color: #F2F2F2;" class="centralizada">
+        <div class="text-align">
+            <H1 id="secao6" class="titlemaior" style="text-align: center;color: #18133e;">TIPOS DE PELÍCULAS</H1>
+        </div>
+        <div class="space-between">
+            <button class="button2" style="background-image: url('IMG/pelicula-carbonblack.png');background-size: 100% 100%;">
+                <div>
+                    <p class="nun-button2">01.</p>
+                    <div class="divbuttonescondido">
+                        <img class="icone3" src="ICONS/iCONES SOLUÇÕES-12.jpg" alt="caneta">
+                        <span>
+                            - Conforto térmico<br>
+                            -  Alta visibilidade<br>
+                            -  Mais privacidade<br>
+                            - Proteção UV</span>
+                    </div>
+                    <div class="div-button">
+                        <span class="title-button2">CARBON BLACK</span>
+                    </div>
+                </div>
+            </button>
+            <button class="button2" style="background-image: url('IMG/acharme.jpeg');background-size: 100% 100%;">
+                <div>
+                    <p class="nun-button2">02.</p>
+                    <div class="divbuttonescondido">
+                        <img class="icone3" src="ICONS/iCONES SOLUÇÕES-13.jpg" alt="caneta">
+                        <span>
+                            - Conforto térmico<br>
+                            - Alta visibilidade<br>
+                            - Mais privacidade</span>
+                    </div>
+                    <div class="div-button">
+                        <span class="title-button2">CHARME SMP</span>
+                    </div>
+                </div>
+            </button>
+            <button class="button2" style="background-image: url('IMG/espelhada.png');background-size: 100% 100%;">
+                <div>
+                    <p class="nun-button2">03.</p>
+                    <div class="divbuttonescondido">
+                        <img class="icone3" src="ICONS/iCONES SOLUÇÕES-13.jpg" alt="caneta">
+                        <span>
+                            - Proteção UV<br>
+                            - Temperatura agradável<br>
+                            - Elegância com efeito espelhado
+                        </span>
+                    </div>
+                    <div class="div-button">
+                        <span class="title-button2">ESPELHADA</span>
+                    </div>
+                </div>
+            </button>
+        </div>
+        <div id="secao7" class="space-between">
+            <button class="button2" style="background-image: url('IMG/segurança.png');background-size: 100% 100%;">
+                <div>
+                    <p class="nun-button2">04.</p>
+                    <div class="divbuttonescondido">
+                        <img class="icone3" src="ICONS/iCONES SOLUÇÕES-13.jpg" alt="caneta">
+                        <span>
+                            - Acabamento elegante<br>
+                            - Maior discrição<br>
+                            - Toque moderno e sofisticado
+                        </span>
+                    </div>
+                    <div class="div-button">
+                        <span class="title-button2">JATEADA</span>
+                    </div>
+                </div>
+            </button>
+            <button class="button2" style="background-image: url('IMG/Fumê.png');background-size: 100% 100%;">
+                <div>
+                    <p class="nun-button2">05.</p>
+                    <div class="divbuttonescondido">
+                        <img class="icone3" src="ICONS/iCONES SOLUÇÕES-14.jpg" alt="caneta">
+                        <span>
+                            - Protege móveis contra desbotamento <br>
+                            - Melhora a eficiência energética<br>
+                            - Acabamento moderno e elegante<br>
+                            - Conforto térmico
+                        </span>
+                    </div>
+                    <div class="div-button">
+                        <span class="title-button2">FUMÊ</span>
+                    </div>
+                </div>
+            </button>
+            <button class="button2" style="background-image: url('IMG/pelicula-smart.png');background-size: 100% 100%;">
+                <div>
+                    <p class="nun-button2">06.</p>
+                    <div class="divbuttonescondido">
+                        <img class="icone3" src="ICONS/iCONES SOLUÇÕES-15.jpg" alt="caneta">
+                        <span>
+                            - Eficiência energetica <br>
+                            - Menos redução de carbono<br>
+                            - Mais controle de privacidsade<br>
+                            - Mais proteção solar<br>
+                            - Sustentável
+                        </span>
+                    </div>
+                    <div class="div-button">
+                        <span class="title-button2">PELÍCULA SMART</span>
+                    </div>
+                </div>
+            </button>
+        </div>
+    </div>
+    <div id="secao4" class="centralizada" style="background-color: #FFF;">
+        <div class="text-align">
+            <h1 class="titlemaior" style="text-align: center;">AVALIAÇÕES!</h1>
+        </div>
+        <div class="space-between">
+            <div class="boxs">
+                <span class="titlezinho">Antônio Noberto</span>
+                <div class="row avaliador">
+                    <img src="ICONS/antonio.png" alt="" style="width: 2.5rem; height: 2.5rem;">
+                    <div class="estrelas">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                    </div>
+                </div>
+                <span class="textos" style="text-align: start; flex-wrap: wrap;">Muito bom, prestação de serviço excelente
+                    De ótima qualidade, comprido horário agenda marcada.
+                    Recomendo fiquei satisfeito
+                    Muito obrigado.</span>
+            </div>
+            <div class="boxs">
+                <span class="titlezinho">Elias Gama</span>
+                <div class="row avaliador">
+                    <img src="ICONS/elias.png" alt="" style="width: 2.5rem; height: 2.5rem;">
+                    <div class="estrelas">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                    </div>
+                </div>
+                <span class="textos" style="text-align: start; flex-wrap: wrap;">Empresa de excelente profissionalismo,
+                    desde o primeiro atendimento com sugestões precisas, até o pós venda. Instalador muito educado. 
+                    Muito satisfeito com a película sugerida e muito bem aplicada. Solucionou meu problema de calor e privacidade.</span>
+            </div>
+            <div class="boxs">
+                <span class="titlezinho">Caio Leão</span>
+                <div class="row avaliador">
+                    <img src="ICONS/caio.png" alt="" style="width: 2.5rem; height: 2.5rem;">
+                    <div class="estrelas">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                        <img src="ICONS/estrela.png" style="width: 1rem; height: 1rem;" alt="">
+                    </div>
+                </div>
+                <span class="textos" style="text-align: start; flex-wrap: wrap;">Coloquei G5 no meu quarto que por conta da 
+                    luz acordava junto com o sol! Profissionalismo e eficiência. Já deixei salvo o contato para ocasiões 
+                    futuras! Recomendo demais!</span>
+            </div>
+        </div>
+    </div>
+    <div id="secao5" style="width: 100%; background-color: #18133e;">
+        <div class="content-images">
+            <div class="columns">
+                <img class="img1" src="IMG/deletar.png" alt="">
+                <img class="img1" src="IMG/Camada 5.png" alt="">
+            </div>
+            <div>
+                <img class="img2" src="IMG/banner-principal-02.jpg" alt="">
+            </div>
+            <div class="columns">
+                <img class="img1" src="IMG/Camada 3.png" alt="">
+                <img class="img1" src="IMG/Camada 4.png" alt="">
+            </div>
+            <div>
+                <img class="img2" src="IMG/WhatsApp Image 2024-07-02 at 14.12.png" alt="">
+            </div>
+        </div>
+        <div style="height: 7rem;display: flex; align-items: start;">
+            <button class="botao" style="cursor: pointer; margin: 1rem 2rem 0 2rem;">
+                <span style="color: #fff; font-weight: bold;">VEJA NOSSO PORTFÓLIO</span>
+                <img src="ICONS/seta-direita.png" alt="play" class="icone">
+            </button>
+        </div>
+    </div>
+    <div class="centralizada" style="background-color: #FFF;">
+        <div class="text-align">
+            <h1 class="titlemaior" style="text-align: center; color: #F6003A;">COMO NÓS TRABALHAMOS?</h1>
+        </div>
+        <div class="space-between">
+            <div class="box2">
+                <span class="title-box">TECNOLOGIA</span>
+                <img class="icone4" src="ICONS/tec-conf-efic-18.png" alt="">
+            </div>
+            <div class="box2">
+                <span class="title-box">EFICIÊNCIA</span>
+                <img class="icone4" src="ICONS/tec-conf-efic-16.png" alt="">
+            </div>
+            <div class="box2">
+                <span class="title-box">CONFORTO</span>
+                <img class="icone4" src="ICONS/tec-conf-efic-17.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row-responsa" style=" width: 100%;background-color: #E5E5E5;">
+        <div class="form">
+            <h1 style="color: #18133e">FALE CONOSCO.</h1>
+            <form action="">
+                <div class="input-sigle">
+                    <input type="text" name="" id="nome-box" class="input" required>
+                    <label for="nome-box">Nome</label>
+                </div>
+                <div class="input-sigle">
+                    <input type="email" name="" id="email-box" class="input" required>
+                    <label for="email-box">E-mail</label>
+                </div>
+                <div class="input-sigle">
+                    <input type="tell" name="" id="tel-box" class="input" required>
+                    <label for="tel-box">Telefone</label>
+                </div>
+                <div class="input-sigle">
+                    <input type="text" name="" id="endereco-box" class="input" required>
+                    <label for="endereco-box">Endereço</label>
+                </div>
+                <div class="radio">
+                    <div>
+                        <input type="radio" id="opcao1" name="opcao" value="opcao1"><label for="opcao1">Envie seu currículo</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="opcao2" name="opcao" value="opcao2"><label for="opcao2">Segurança</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="opcao3" name="opcao" value="opcao3"><label for="opcao3">Privacidade</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="opcao4" name="opcao" value="opcao4"><label for="opcao4">Luminosidade</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="opcao5" name="opcao" value="opcao5"><label for="opcao5">Conforto Térmico</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="opcao6" name="opcao" value="opcao6"><label for="opcao6">Vedação Total</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="opcao7" name="opcao" value="opcao7"><label for="opcao7">Decoração em Película</label>
+                    </div>
+                </div>
+                <div class="input-sigle">
+                    <input type="text" name="" id="assunto-box" class="input" required>
+                    <label for="assunto-box">Assunto</label>
+                </div>
+                <button class="btn" type="submit">Enviar</button>
+              </form>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.9176203526326!2d-46.68973!3d-23.714635699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f73a1c51f1d%3A0xe0f40e13ee992826!2sThe%20Black%20Film%20-%20Pel%C3%ADculas%20Espelhada%20-%20Jateada%20-%20Fum%C3%AA!5e0!3m2!1spt-BR!2sbr!4v1739375665344!5m2!1spt-BR!2sbr"
+            width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <footer style="background-color: #18133e; padding: 3rem 0;">
+        <div style="margin: 0 2rem;" class="row-responsa space-between">
+            <div>
+                <p class="titlefoot">Telefone</p>
+                <span class="text-foot">
+                    Fixo: (11) 5242-9987 <br>
+                    Celular/Whatsapp: (11) 95201-5603
+                </span>
+            </div>
+            <div>
+                <p class="titlefoot">Endereço</p>
+                <span class="text-foot">
+                    Av: Lourenço Cabreira, 836 - Sala 56 <br>CEP: 04812-010
+                </span>
+            </div>
+            <div>
+                <p class="titlefoot">E-mail</p>
+                <span class="text-foot">
+                    contato@theblackfilm.com.br
+                </span>
+            </div>
+            <div>
+                <p class="titlefoot">Redes Sociais</p>
+                <a href=""><img width="30rem" height="30rem" src="ICONS/facebook.png" alt=""></a>
+                <a href=""><img width="30rem" height="30rem" src="ICONS/instagram.png" alt=""></a>
+            </div>
+        </div>
+        <hr style="margin: 3rem 2.5rem 0 2.5rem;">
+        <p style="margin: 1.5rem 2rem 0 2rem; color: #E5E5E5;">&copy; 2025 The Black Film | Desenvolvido pela Rugido Pro</p>
+        <a href="https://wa.me/5511999999999" id="whatsapp-icon" target="_blank">
+            <img id="wpp" src="IMG/whatsapp.png" alt="">
+        </a>
+    </footer>
+    <script src="funcao.js"></script>
+</body>
+</html>
